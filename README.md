@@ -84,9 +84,9 @@ Ao iniciar, a ESP32 cria automaticamente uma rede Wi-Fi.
 
 Exemplo:
 ```txt
-SSID: Vasco
+SSID: Teste-ESP32
 Senha: 12345678
-as
+
 C++
 ESP32
 Arduino Framework
