@@ -80,29 +80,39 @@ Responsável pelo comportamento do veículo em cada modo de operação.
 
 # 📡 Rede Wi-Fi
 
-Ao iniciar, a ESP32 cria automaticamente uma rede Wi-Fi.
+Ao ser iniciado, o ESP32 cria automaticamente uma rede Wi-Fi própria para comunicação com o robô, permitindo o controle remoto diretamente pelo navegador sem necessidade de internet externa.
 
-Exemplo:
+### Exemplo de configuração
 ```txt
-SSID: Teste-ESP32
-Senha: 12345678
+SSID: ERUS-LineCar
+Senha: line2026
+```
 
-C++
-ESP32
-Arduino Framework
-HTML5
-CSS3
-JavaScript
-Wi-Fi Embedded Systems
-📌 Objetivo
+Após conectar-se à rede, basta acessar o endereço IP exibido no monitor serial para utilizar a interface de controle.
 
-O projeto tem como objetivo aplicar conceitos de:
+---
 
-Robótica
-Sistemas embarcados
-Programação
-Automação
-Redes
-Desenvolvimento web
+# Tecnologias Utilizadas
 
-integrando hardware e software em uma aplicação prática.
+- C++
+- ESP32
+- Arduino Framework
+- HTML5
+- CSS3
+- JavaScript
+- Sistemas embarcados com Wi-Fi
+
+---
+
+# 📌 Objetivo
+
+O projeto tem como principal objetivo aplicar, na prática, conceitos de:
+
+- Robótica
+- Sistemas embarcados
+- Programação em C++
+- Automação
+- Redes
+- Desenvolvimento web
+
+integrando hardware e software em uma solução embarcada interativa.
