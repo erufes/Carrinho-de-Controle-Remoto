@@ -1,0 +1,64 @@
+# PlatformIO / Arduino
+.pio/
+.piolibdeps/
+
+# VS Code
+.vscode/
+
+# Build
+build/
+dist/
+
+# Objetos compilados
+*.o
+*.obj
+*.lo
+*.slo
+
+# Bibliotecas
+*.a
+*.la
+*.lai
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Executáveis
+*.exe
+*.out
+*.app
+*.elf
+*.bin
+*.hex
+
+# Headers pré-compilados
+*.gch
+*.pch
+
+# Fortran
+*.mod
+*.smod
+
+# Logs
+*.log
+
+# Temporários
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# Binários do projeto
+Simulador
+vss-simulator/Instalador/
