@@ -117,9 +117,12 @@ O projeto tem como principal objetivo aplicar, na prática, conceitos de:
 
 integrando hardware e software em uma solução embarcada interativa.
 
-👥 Equipe
-Rodrigo Pacheco
-Matheus Belmoque
-Guilherme Mesquita
-Pedro Pavesi
-Antonia Ferreira
+# 👥 Equipe
+
+| Integrantes |
+|---|
+| Antonia Ferreira |
+| Guilherme Mesquita |
+| Matheus Belmoque |
+| Pedro Pavesi |
+| Rodrigo Pacheco |
