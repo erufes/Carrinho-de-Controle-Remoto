@@ -119,10 +119,8 @@ integrando hardware e software em uma solução embarcada interativa.
 
 # 👥 Equipe
 
-| Integrantes |
-|---|
-| Antonia Ferreira |
-| Guilherme Mesquita |
-| Matheus Belmoque |
-| Pedro Pavesi |
-| Rodrigo Pacheco |
+- Antonia Ferreira 
+- Guilherme Mesquita 
+- Matheus Belmoque 
+- Pedro Pavesi 
+- Rodrigo Pacheco 
