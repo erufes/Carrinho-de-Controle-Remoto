@@ -18,17 +18,18 @@ float ComparaErro();//comparar se o erro está próximo de 0
 //se sim, retorna o valor do incremento,caso contrario 0
 
 float CorrigePWM(float pwmsomado,float erro){
+    float sinal = (pwmsomado >= 0) ? 1.0 : -1.0;
     if(fabs(pwmsomado) >= limiar){
-        return (int) constrain(fabs(pwmsomado),limiar,250);
+        return (int) sinal * constrain(fabs(pwmsomado),limiar,250);
     }
-    if (fabs(erro) >= 800){
-        return (int) (constrain(pwmsomado,-PWM_MAX,PWM_MAX));
+    if (fabs(erro) >= 700){
+        return -1*constrain(fabs(pwmsomado) ,250,limiar);
     }
     return 0;
 }
 
 float PID(){
-    float error, proporcional,derivada,pid;
+    float proporcional,derivada,pid;
     static float lasterror;
     
     error = (s1*-2 + s2*-1 + s3*1 + s4*2)/6;
