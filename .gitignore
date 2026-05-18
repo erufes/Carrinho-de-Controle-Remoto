@@ -62,3 +62,7 @@ desktop.ini
 # Binários do projeto
 Simulador
 vss-simulator/Instalador/
+include/
+lib/
+test/
+platformio.ini
